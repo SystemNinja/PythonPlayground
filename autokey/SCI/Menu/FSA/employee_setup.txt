@@ -1,0 +1,79 @@
+Hello Brenda,
+
+Setup for the user has been completed, let me know if they are having any technical difficulties or if you need anything else. 
+
+Regards
+
+
+
+
+
+
+
+
+
+
+
+
+============================================================================
+Logging into Okta
+Admin > Directory > People
+Creating Okta profile
+Setting default password to Fullstack123!
+Configuring Okta profile
+
+Logging into Jira 
+Projects > Fullstack Academy > Customers > Add customers 
+Entering user's FSA email address > Add
+Jira invitation sent 
+Jira setup status: 
+
+Accessing LMS
+Singing up user for the LMS account
+Logging into LMS with Setton account
+Searching for the user's account and accessing it
+Setting Cohort to Fulltime-Staff 
+Switching to Roles & Permissions
+Granting following roles:
+Employee 
+
+LMS setup status: 
+
+Hubspot
+Accessing Hubspot from Okta dashboard
+Created user
+Hubspot status: 
+
+APL nextED
+Okta > Directory > Groups
+Accessing APL nextED Group > Assign People
+Located user
+Clicked on +
+Assigned user
+Saving changes
+APL group status: 
+
+Accessing APL from Okta dashboard
+Faculty > Faculty Profiles > Add Faculty
+Filling up following:
+First name
+Last name
+Primary Email
+State: New York
+Start date
+
+Faculty Primary Association
+Campus: Set to region from user setup form
+College: Admin
+Department: Used job title as value of the department
+Clicked on Save
+
+Faculty > Faculty Profiles
+Changing Status Type to All Statuses > Filter
+Searching for the user
+Clicked on View button
+Switched to Attributes tab > Add Attributes
+Changing Faculty Rank to match job title
+Changing Load Status to match PT/FT and job title
+Saving changes
+APL status:

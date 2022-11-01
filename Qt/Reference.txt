@@ -1,0 +1,21 @@
+General:
+https://doc.qt.io/qtforpython/api.html
+https://doc.qt.io/qtforpython/tutorials/basictutorial/uifiles.html#using-ui-files
+https://doc.qt.io/qt-6/designer-using-a-ui-file-python.html
+
+Grid Layout:
+https://doc.qt.io/qtforpython/PySide6/QtWidgets/QGridLayout.html
+
+File dialog:
+https://doc.qt.io/qtforpython/PySide6/QtWidgets/QFileDialog.html
+
+Use 1 function for multiple button signals:
+https://stackoverflow.com/questions/15080731/calling-a-function-upon-button-press
+
+Remember last opened folder:
+https://www.pythonguis.com/faq/remeber-last-saved-directory-with-qfiledialog/
+https://eli.thegreenplace.net/2011/04/25/passing-extra-arguments-to-pyqt-slot/
+
+Update windows cache:
+https://realpython.com/python-memcache-efficient-caching/
+https://enterprise.arcgis.com/en/server/10.8/publish-services/windows/automating-cache-creation-and-updates-with-geoprocessing.htm

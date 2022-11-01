@@ -1,0 +1,44 @@
+﻿A tiny program that will hold few different converters for everyday use.
+To add: Currency(euro-din+reverse,euro-dollar+reverse,euro/din-yen+reverse). Imperial to Metric unit converter.
+Links: 
+https://s3.amazonaws.com/eakes-production/assets/13288/original.jpg?1418402636 http://convert.french-property.co.uk 
+https://www.pydanny.com/why-doesnt-python-have-switch-case.html https://docs.python.org/3/library/decimal.html
+
+To convert: https://www.rapidtables.com/ Do more research on these
+euro to din and vice versa -- done
+Celsius to Fahrenheit F = C × 9/5 + 32. --  done 
+Fahrenheit to Celsius C = F - 32 * 5/9, -- done 
+meter to feet, 1ft=0.3048m, 1m=3.28084 feet -- done
+kg to pound 1kg=2.20462262185lb, divider=0.45359237 -- done 
+cm to inches 1cm=2.54inches -- done
+km to miles 1 kilometer is equal to 0.62137119 miles. divider=1.609344 -- done
+
+***Currency Converter***
+Limit program to lets say 3 decimals behind zero, for that discover about decimals for added precision, for now use round function, 
+format() can also be used to accomplish same task
+Currencies(9.12.2017): Euro: 119.643din Dollar: 101.659din
+
+Challenges/Improvements:
+Make program use loops, dictionaries, basically all parts covered up until lesson 6(not including it)
+Add feature to 'length' section which will perform calculations based on 1 parameter, ex: 
+    #Enter number of km and return equivalent in mi, m, ft,etc. 
+Modify currency converter so that it pulls course from internet
+    https://www.kursna-lista.com/kursne-liste-banaka-i-menjacnica - even better link for euro course
+    https://themoneyconverter.com/EUR/RSD.aspx
+    http://docs.python-guide.org/en/latest/scenarios/scrape/
+    https://www.kursna-lista.com
+    https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe
+    Some sites generate content after load via javascript, therefore data needs to be obtained by different method, ex: selenium
+    http://www.xe.com/?cn=rs
+    https://stackoverflow.com/questions/8960288/get-page-generated-with-javascript-in-python
+    Bonus bonus, in case there's no net, make program use course from last time the net connection was established.
+        Most likely requires writing a value to a file and then reads from it 
+    -
+Modify Celsius and Fahrenheits so values below certain points cannot be entered stating that temperature cannot be below "a point", points:
+    C - lowest temp cannot be below -273
+    F - lowest temp cannot be below -459
+
+Questions:
+1-Should multiple functions be used or try to fit all code into one function? Example CurrencyConverter function, it handles menu options and calls function based on which option is selected.
+Should I remove functions which convert euro to din and vice-versa and incorporate code into function CurrencyConverter?
+Function will be called only if choosen by options from menu.

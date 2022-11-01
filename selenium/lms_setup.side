@@ -1,0 +1,38 @@
+{
+  "id": "1bda29a6-2875-486f-9484-ee17a690ebfc",
+  "version": "2.0",
+  "name": "lms_setup",
+  "url": "https://learn.fullstackacademy.com/",
+  "tests": [{
+    "id": "c85b2da4-d3b3-418f-822c-51ef451c2e26",
+    "name": "Untitled",
+    "commands": [{
+      "id": "55308579-da35-43d9-9d0d-29bea8fe8827",
+      "comment": "",
+      "command": "clickAt",
+      "target": "getStateTabClassObj('signup')",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be859f05-25e3-4b53-8828-f33d38ea4a3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-right",
+      "targets": [
+        ["css=.border-right", "css:finder"],
+        ["xpath=//welcome-dot/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4887c70c-1d6b-43e6-8f63-4da8e30f0ef3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c85b2da4-d3b3-418f-822c-51ef451c2e26"]
+  }],
+  "urls": ["https://learn.fullstackacademy.com/"],
+  "plugins": []
+}
